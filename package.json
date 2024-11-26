@@ -1,0 +1,20 @@
+{
+  "name": "improved-repo-workflow",
+  "version": "0.0.0-development",
+  "description": "",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "prepare": "husky",
+    "lint": "npm run lint:scripts && npm run lint:styles",
+    "lint:scripts": "",
+    "lint:styles": "prettier --check .",
+    "format-code": "prettier . --write"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.4.1"
+  }
+}
