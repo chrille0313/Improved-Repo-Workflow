@@ -7,9 +7,11 @@
   "scripts": {
     "prepare": "husky",
     "lint": "npm run lint:scripts && npm run lint:styles",
+    "lint:fix": "npm run lint:scripts:fix && npm run lint:styles:fix",
     "lint:scripts": "",
+    "lint:scripts:fix": "",
     "lint:styles": "prettier --check .",
-    "format-code": "prettier . --write"
+    "lint:styles:fix": "prettier --write ."
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.0",
