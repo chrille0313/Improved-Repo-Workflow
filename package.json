@@ -5,20 +5,20 @@
   "author": "",
   "type": "module",
   "scripts": {
-    "prepare": "husky",
     "lint": "npm run lint:scripts && npm run lint:styles",
     "lint:fix": "npm run lint:scripts:fix && npm run lint:styles:fix",
     "lint:scripts": "",
     "lint:scripts:fix": "",
     "lint:styles": "prettier --check .",
-    "lint:styles:fix": "prettier --write ."
+    "lint:styles:fix": "prettier --write .",
+    "prepare": "husky"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.0",
-    "@commitlint/config-conventional": "^19.6.0",
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@semantic-release/github": "^12.0.2",
     "husky": "^9.1.7",
-    "prettier": "^3.4.1",
-    "semantic-release": "^25.0.2",
-    "@semantic-release/github": "^11.0.1"
+    "prettier": "^3.6.2",
+    "semantic-release": "^25.0.2"
   }
 }
