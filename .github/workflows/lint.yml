@@ -4,7 +4,7 @@ permissions:
 
 on:
   pull_request:
-    branches: ['main', 'development']
+    branches: ['main', 'master', 'development', 'develop']
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
